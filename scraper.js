@@ -23,7 +23,7 @@ class Scraper {
       .random()
       .toString()
     ) || USER_AGENT;
-    this.headless = false;
+    this.headless = true;
     this.latest = true;
     this.delay = 5000;
     this.random_delay = 1000;
